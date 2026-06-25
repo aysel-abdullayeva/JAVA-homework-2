@@ -25,8 +25,12 @@ public class Task7 {
         System.out.println("3cu boolean gosterir: " + hesabVeBalans);
 
 
-        // "Ad boş deyil (uzunluğu 0-dan çoxdur) VƏ yaş 18-dən böyükdür" — String ad = "Anar", int yas = 22
+        // "Ad boş deyil (uzunluğu 0-dan çoxdur) VƏ yaş 18-dən böyükdür" —
+        String ad = "Anar";
+        int yas = 22;
 
+        boolean uygunluq = ad.length()>0 && yas > 18;
+        System.out.println("4cu boolean: " + uygunluq);
     }
 
 }
