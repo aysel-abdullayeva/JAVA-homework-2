@@ -9,7 +9,7 @@ public class Task11 {
         //Uzunluğu 8-dən çoxdur? (uzunUygun)
 
         boolean uzunUygun =parol.length()>8;
-        System.out.println("Uzunluq ; " + uzunUygun);
+        System.out.println(uzunUygun);
 
         //"@" simvolu var mı? (xarakterVar)
         boolean contain = parol.contains("@");
